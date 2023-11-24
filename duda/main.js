@@ -3,19 +3,19 @@
 function tocaSomChick(){
     document.querySelector("#som_tecla_chick").play();
 }
-document.querySelector(".tecla_chickhicks").onclick = tocaSomChick;
+document.querySelector(".tecla_chick").onclick = tocaSomChick;
 
 //cruz
 function tocaSomCruz(){
     document.querySelector("#som_tecla_cruz").play();
 }
-document.querySelector(".tecla_cruzramirez").onclick = tocaSomCruz;
+document.querySelector(".tecla_cruzr").onclick = tocaSomCruz;
 
 //carrosturbinados
 function tocaSomCarros(){
     document.querySelector("#som_tecla_carrosturbinados").play();
 }
-document.querySelector(".tecla_carros").onclick = tocaSomCarros;
+document.querySelector(".tecla_carrosturbinados").onclick = tocaSomCarros;
 
 //flynn
 function tocaSomFlynn(){
