@@ -1,0 +1,128 @@
+body {
+    background-color: #708090;
+    margin: 0;
+}
+header {
+    background-color: #effffd;
+    padding: 20px;
+}
+.titulo-principal{
+    position: absolute;
+    top: 3%;
+    left: 30%;
+    transform: translate(8%, -20%);
+    font-size: 70px;
+    color:#ffffff;
+    font-family: 'acme';
+    color: rgb(112,128,144);
+}
+img {
+    width: 300px;
+    height: 150px;
+}
+nav {
+    position: absolute;
+    top: 160px;
+    right: 50px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color:#708090;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'italic';
+}
+nav a:hover{
+    color:rgb(68, 147, 232);
+    text-decoration: underline;
+}
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+.retangulo,
+.retangulo1,
+.retangulo2 {
+    width: 60%; 
+    margin: 20px auto; /* */
+    background-color: rgb(85, 98, 110);
+    padding: 20px;
+    text-align: left;
+    box-sizing: border-box;
+}
+.retangulo img,
+.retangulo1 img,
+.retangulo2 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px; 
+}
+.retangulo p,
+.retangulo1 p,
+.retangulo2 p {
+    font-size: 25px;
+    color: #000000;
+    margin: 0; /*  */
+}
+.retangulo {
+    width: 1440px;
+    height: 200px;
+    background-color: rgb(85, 98, 110);
+    justify-content: center;
+    padding: 20px;
+    text-align: left;
+    margin-top: 50px;
+}
+.retangulo img {
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 1200px;
+}
+.retangulo p { 
+    font-size: 25px;
+    color: #000000;
+}
+.retangulo1 {
+    width: 1440px;
+    height: 200px;
+    background-color: rgb(85, 98, 110);
+    justify-content: center;
+    padding: 20px;
+    text-align: left;
+    margin-top: 50px;
+}
+.retangulo1 img {
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 1200px;
+}
+.retangulo1 p {
+    font-size: 25px;
+    color: #000000;
+}
+.retangulo2 {
+    width: 1440px;
+    height: 200px;
+    background-color: rgb(85, 98, 110);
+    justify-content: center;
+    padding: 20px;
+    text-align: ce;
+    margin-top: 50px;
+}
+.retangulo2 img {
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 1200px;
+}
+.retangulo2 p {
+    font-size: 25px;
+    color: #000000;
+}
